@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background: #001529 !important;
+}
+
+.logo {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 30px;
+  white-space: nowrap;
+}
+
+.nav-menu {
+  flex: 1;
+  min-width: 0;
+  border-bottom: none !important;
+}
+
+.user-avatar {
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar .ant-avatar {
+  background-color: #1890ff;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-right: 15px;
+    font-size: 1rem;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+}

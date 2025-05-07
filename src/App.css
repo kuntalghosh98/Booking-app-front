@@ -1,0 +1,44 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5rem;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.stats-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.stats-row .ant-card {
+  flex: 1;
+}
+
+.bookings-card {
+  margin-top: 20px;
+}
+
+/* Ant Design overrides */
+.ant-card-head-title {
+  font-weight: 600;
+}
+
+.ant-statistic-title {
+  font-size: 16px;
+}
+
+.ant-statistic-content {
+  font-size: 24px;
+}

@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Michael Smith",
+      "specialization": "Dermatologist",
+      "clinic": "Healthy Skin Clinic",
+      "location": "789 Elm Street, Chicago, IL",
+      "available_slots": ["9:30 AM", "11:00 AM", "1:00 PM", "3:30 PM"],
+      "fees": 100,
+      "ratings": 4.7,
+      "reviews": [
+        {"patient": "Lucy Adams", "comment": "Very professional.", "rating": 5},
+        {"patient": "Robert King", "comment": "Helped me with my skin problem.", "rating": 4}
+      ],
+      "contact": "+1 456-789-0123"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Anna Roberts",
+      "specialization": "Pediatrician",
+      "clinic": "Child Care Center",
+      "location": "321 Maple Avenue, Boston, MA",
+      "available_slots": ["10:00 AM", "1:30 PM", "3:00 PM", "5:00 PM"],
+      "fees": 80,
+      "ratings": 4.9,
+      "reviews": [
+        {"patient": "Emily Davis", "comment": "Great with kids!", "rating": 5},
+        {"patient": "James White", "comment": "Very caring doctor.", "rating": 5}
+      ],
+      "contact": "+1 567-890-1234"
+    }
+  ]
+  
