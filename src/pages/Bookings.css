@@ -1,0 +1,24 @@
+.bookings-page {
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.ant-table-row .ant-btn {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+  }
+
+  .filters > * {
+    width: 100% !important;
+  }
+}

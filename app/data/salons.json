@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Glamour Hair Studio",
+      "owner": "Alice Johnson",
+      "location": "123 Main Street, New York, NY",
+      "services": [
+        {"id": 1, "name": "Haircut", "price": 25, "duration": 30},
+        {"id": 2, "name": "Hair Color", "price": 50, "duration": 60},
+        {"id": 3, "name": "Manicure", "price": 20, "duration": 40},
+        {"id": 4, "name": "Facial", "price": 40, "duration": 45}
+      ],
+      "available_slots": ["10:00 AM", "11:30 AM", "2:00 PM", "4:00 PM", "6:00 PM"],
+      "ratings": 4.5,
+      "reviews": [
+        {"customer": "Emma Watson", "comment": "Great service!", "rating": 5},
+        {"customer": "David Brown", "comment": "Loved my haircut!", "rating": 4}
+      ],
+      "contact": "+1 234-567-8900"
+    },
+    {
+      "id": 2,
+      "name": "Luxury Nail Spa",
+      "owner": "Jessica Lee",
+      "location": "456 Broadway, Los Angeles, CA",
+      "services": [
+        {"id": 5, "name": "Gel Nails", "price": 30, "duration": 40},
+        {"id": 6, "name": "Pedicure", "price": 35, "duration": 50}
+      ],
+      "available_slots": ["9:00 AM", "1:00 PM", "3:30 PM", "5:00 PM"],
+      "ratings": 4.8,
+      "reviews": [
+        {"customer": "Sarah Miller", "comment": "Best nail spa ever!", "rating": 5},
+        {"customer": "John Doe", "comment": "Good service but a bit pricey.", "rating": 4}
+      ],
+      "contact": "+1 345-678-9012"
+    }
+  ]
+  

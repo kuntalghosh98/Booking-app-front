@@ -1,0 +1,49 @@
+[
+    {
+      "id": 1,
+      "name": "The Italian Feast",
+      "owner": "Marco Rossi",
+      "location": "456 Ocean Drive, Miami, FL",
+      "menu": [
+        {"id": 1, "name": "Margherita Pizza", "price": 12},
+        {"id": 2, "name": "Pasta Alfredo", "price": 15},
+        {"id": 3, "name": "Caesar Salad", "price": 8},
+        {"id": 4, "name": "Tiramisu", "price": 10}
+      ],
+      "available_tables": 5,
+      "reservations": [
+        {"customer": "Olivia Brown", "time": "7:00 PM", "guests": 2},
+        {"customer": "John Carter", "time": "8:30 PM", "guests": 4}
+      ],
+      "ratings": 4.6,
+      "reviews": [
+        {"customer": "Sophia Wilson", "comment": "Amazing food!", "rating": 5},
+        {"customer": "Mike Johnson", "comment": "Best pizza in town!", "rating": 4}
+      ],
+      "contact": "+1 678-901-2345"
+    },
+    {
+      "id": 2,
+      "name": "Spicy Indian Kitchen",
+      "owner": "Raj Patel",
+      "location": "789 Sunset Blvd, San Francisco, CA",
+      "menu": [
+        {"id": 5, "name": "Butter Chicken", "price": 18},
+        {"id": 6, "name": "Paneer Tikka", "price": 14},
+        {"id": 7, "name": "Garlic Naan", "price": 5},
+        {"id": 8, "name": "Mango Lassi", "price": 6}
+      ],
+      "available_tables": 3,
+      "reservations": [
+        {"customer": "Linda Green", "time": "6:30 PM", "guests": 3},
+        {"customer": "David Hall", "time": "8:00 PM", "guests": 2}
+      ],
+      "ratings": 4.9,
+      "reviews": [
+        {"customer": "Chris Evans", "comment": "Authentic Indian flavors!", "rating": 5},
+        {"customer": "Jessica Lopez", "comment": "Loved the Butter Chicken!", "rating": 5}
+      ],
+      "contact": "+1 789-012-3456"
+    }
+  ]
+  
