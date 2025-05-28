@@ -12,7 +12,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
 import { useEffect, useState } from "react";
 import Profile from "./tabs/Profile";
-import Dashboard from "./stack/Dashboard";
+
 import Appointments from "./stack/Appointments";
 import AppointmentsScreen from "./screens/AppointmentsScreen";
 import SalonScreen from "./screens/Salon";
@@ -86,3 +86,5 @@ export default function Layout() {
     </GestureHandlerRootView>
   );
 }
+
+

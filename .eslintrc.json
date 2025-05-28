@@ -1,0 +1,15 @@
+{
+    "extends": ["airbnb", "airbnb/hooks", "airbnb-typescript", "prettier"],
+    "plugins": ["react-native"],
+    "rules": {
+      "react-native/no-inline-styles": "error",
+      
+      
+    "react-native/no-color-literals": "warn",
+   "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": "off",
+    },
+    "env": {
+        "react-native/react-native": true,
+      },
+  }

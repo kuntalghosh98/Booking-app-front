@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
-import SalonStaffCard from "../components/Staff/SalonStaffCard";
+import StaffCard from "../components/molecules/StaffCard/StaffCard";
 
 
 const SalonStaffManagementScreen = ({staffList=[],setStaffList,selectedStaff,setSelectedStaff}) => {
@@ -45,7 +45,7 @@ const SalonStaffManagementScreen = ({staffList=[],setStaffList,selectedStaff,set
           data={staffList}
           keyExtractor={(item) => item.id}
           renderItem={({ item }) => (
-            <SalonStaffCard
+            <StaffCard
               staff={item}
               onEdit={() => handleEditStaff(item)}
               onDelete={() => handleDeleteStaff(item.id)}
@@ -92,3 +92,5 @@ const styles = StyleSheet.create({
     color: "#888",
   },
 });
+
+
