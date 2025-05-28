@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, FlatList, TouchableOpacity, TextInput, Modal, Button } from "react-native";
-import { Card } from "../components/ui/card";
+import { Card } from "../components/atoms/Card/Card";
 
 const SalonService = () => {
   const defaultServices = [
@@ -75,3 +75,5 @@ const SalonService = () => {
 };
 
 export default SalonService;
+
+

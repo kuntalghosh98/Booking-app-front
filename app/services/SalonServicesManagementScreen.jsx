@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import SalonServiceCard from "../components/SalonServiceCard";
+import SalonServiceCard from "../components/molecules/ServiceCard/ServiceCard";
 import AddEditSalonServiceForm from "../components/AddEditSalonServiceForm";
 import {sampleSalonServices} from "../data/dummyAppointments"
 
@@ -155,3 +155,5 @@ const styles = StyleSheet.create({
 });
 
 export default SalonServicesManagementScreen;
+
+

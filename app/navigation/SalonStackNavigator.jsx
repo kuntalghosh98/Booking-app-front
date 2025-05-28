@@ -76,3 +76,5 @@ const SalonStackNavigator = () => {
 };
 
 export default SalonStackNavigator;
+
+

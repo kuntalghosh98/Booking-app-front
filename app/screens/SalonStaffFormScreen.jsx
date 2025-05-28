@@ -14,7 +14,7 @@ import {
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import * as ImagePicker from "expo-image-picker";
-import SalonStaffHoursManager from "../components/Staff/SalonStaffHoursManager";
+import StaffHoursManager from '@components/organisms/StaffHoursManager/StaffHoursManager';
 
 const SalonStaffFormScreen = ({ navigation, route,handleSaveStaff,staffData }) => {
   console.log("SalonStaffFormScreen",staffData);
@@ -107,7 +107,7 @@ const SalonStaffFormScreen = ({ navigation, route,handleSaveStaff,staffData }) =
           <Text style={{ marginBottom: 6, fontWeight: "500" }}>Working Hours</Text>
           
             
-              <SalonStaffHoursManager hours={workingHours} onChange={setWorkingHours} />
+              <StaffHoursManager hours={workingHours} onChange={setWorkingHours} />
 
           {/* Save Button */}
           <TouchableOpacity style={styles.saveBtn} onPress={handleSave}>
@@ -182,3 +182,5 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
+
